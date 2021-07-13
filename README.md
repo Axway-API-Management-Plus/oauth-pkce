@@ -28,7 +28,7 @@ Also for the PKCE Flow, an OAuth client application must be set up in the API ga
 
 ![Get or Retrieve OAuth-Access-Token](lib/images/oauth-client-application.png)  
 
-:point_up: There may be an error with the token exchange if, for example, if you are using Azure-AD. In this case, check the use of the special AzureOAuth2TokenProvider.
+:point_up: There may be an error with the token exchange if, for example, if you are using Azure-AD. In this case, check the use of the special [AzureOAuth2TokenProvider](https://github.com/Axway-API-Management-Plus/azure-oauth2provider).
 
 ### Create Code-Challenge
 
